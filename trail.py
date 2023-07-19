@@ -6,6 +6,7 @@ import re
 
 ######################################### Variables ############################################################################
 
+#Read the README.md for instructions of how to use. 
 
 #What summon command do you want to prefix to the coordinate?
 prefix_command = "summon blockbuilders:trail"
