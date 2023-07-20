@@ -5,18 +5,21 @@ Install the dependencies for this script by navigating to this folder in a termi
 pip install -r requirements.txt
 ```
 
+How to setup:
 
-For this to work you need to import this Makecode workspace. https://makecode.com/_VrR3Ke5VmLiu
+1. Run trail.py
+2. Remove the encrypted websockets option.
+3. type /connect localhost:3000
+4. Type out the command for each point you want to edit. 
 
-How to use:
+Command syntax:
+```
+trail [path to function] [function name]
+```
 
-1. Remove encrypted ws option from main menu. 
-2. Download the workspace
-3. Activate the workspace
-4. Run trail.py
-5. type /connect localhost:3000
-6. press t then x
-7. check the function output
-8. To stop the script running click CTRL + C in the terminal. 
+trail = (triggers the command)
+path to function = (this is the path in the function folder)
+function name = (name of the function for example: test.mcfunction)
+
 
 
